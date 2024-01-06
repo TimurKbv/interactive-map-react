@@ -1,0 +1,315 @@
+{
+    "Buildings": [
+        {
+            "id": "62b52dwada4e-9f9b-4cd2-95ca-8cbaa6376fb1",
+            "Name": "Building 1",
+            "Coordinates": {
+                "X": 30,
+                "Y": 80,
+                "Width": 200,
+                "Length": 100
+            },
+            "occupied": 156,
+            "empty": 200,
+            "address": "Leipziger Straße 1, 10110 Berlin",
+            "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnVpbGRpbmd8ZW58MHx8MHx8fDA%3D"
+        },
+        {
+            "id": "62b52a4e-9f9b-4cd2-95ca-8cbaadwadwa6376fb2",
+            "Name": "Building 2",
+            "Coordinates": {
+            "X": 250,
+            "Y": 101,
+            "Width": 200,
+            "Length": 100
+            },
+            "occupied": 200,
+            "empty": 200,
+            "address": "Leipziger Straße 2, 10110 Berlin",
+            "image": "https://images.unsplash.com/photo-1554469384-e58fac16e23a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnVpbGRpbmd8ZW58MHx8MHx8fDA%3D"
+        },
+        {
+            "id": "62b52a4e-9f9b-4cd2-95ca-8cbwdawdawaa6376fb3",
+            "Name": "Building 3",
+            "Coordinates": {
+            "X": 500,
+            "Y": 75,
+            "Width": 200,
+            "Length": 100
+            },
+            "occupied": 135,
+            "empty": 200,
+            "address": "Leipziger Straße 3, 10110 Berlin",
+            "image": "https://images.unsplash.com/photo-1470075801209-17f9ec0cada6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YnVpbGRpbmd8ZW58MHx8MHx8fDA%3D"
+        },
+        {
+            "id": "62b52a4e-9f9b-4cd2-95ca-8cbaa63745zh76fb4",
+            "Name": "Building 4",
+            "Coordinates": {
+            "X": 750,
+            "Y": 88,
+            "Width": 200,
+            "Length": 100
+            },
+            "occupied": 188,
+            "empty": 200,
+            "address": "Leipziger Straße 4, 10110 Berlin",
+            "image": "https://images.unsplash.com/photo-1554435493-93422e8220c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJ1aWxkaW5nfGVufDB8fDB8fHww"
+        },
+        {
+            "id": "62b52a4e-9f9b-4cd2-95ca-8cbaa4h45h45h6376fb5",
+            "Name": "Building 5",
+            "Coordinates": {
+            "X": 1000,
+            "Y": 95,
+            "Width": 200,
+            "Length": 100
+            },
+            "occupied": 200,
+            "empty": 200,
+            "address": "Leipziger Straße 5, 10110 Berlin",
+            "image": "https://images.unsplash.com/photo-1542361345-89e58247f2d5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJ1aWxkaW5nfGVufDB8fDB8fHww"
+        },
+        {
+            "id": "62b52a4e-9f9b-4cd45h45h2-95ca-8cbaa6376fb6",
+            "Name": "Building 6",
+            "Coordinates": {
+            "X": 1300,
+            "Y": 95,
+            "Width": 400,
+            "Length": 100
+            },
+            "occupied": 190,
+            "empty": 200,
+            "address": "Leipziger Straße 6, 10110 Berlin",
+            "image": "https://plus.unsplash.com/premium_photo-1677620678562-5876edb7c126?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJ1aWxkaW5nfGVufDB8fDB8fHww"
+        },
+        {
+            "id": "62bh5452a4e-9f9b-4c45h45hd2-9545hca-8f7gffa6376fb2",
+            "Name": "Building 7",
+            "Coordinates": {
+            "X": 1350,
+            "Y": 450,
+            "Width": 400,
+            "Length": 100
+            },
+            "occupied": 137,
+            "empty": 200,
+            "address": "Unter den Linden 2, 10110 Berlin",
+            "image": "https://images.unsplash.com/photo-1554469384-e58fac16e23a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnVpbGRpbmd8ZW58MHx8MHx8fDA%3D"
+        },
+        {
+            "id": "62b52a45h4e-9fh549b-4cd2-95ca-8cawdwaa45h456376fb3",
+            "Name": "Building 8",
+            "Coordinates": {
+            "X": 1350,
+            "Y": 600,
+            "Width": 400,
+            "Length": 100
+            },
+            "occupied": 200,
+            "empty": 200,
+            "address": "Unter den Linden 3, 10110 Berlin",
+            "image": "https://images.unsplash.com/photo-1470075801209-17f9ec0cada6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YnVpbGRpbmd8ZW58MHx8MHx8fDA%3D"
+        },
+        {
+            "id": "62b52a4e-9f9b-4c45h45d2-95drgca-8cbffd45h86376fb4",
+            "Name": "Building 9",
+            "Coordinates": {
+            "X": 1350,
+            "Y": 730,
+            "Width": 400,
+            "Length": 100
+            },
+            "occupied": 188,
+            "empty": 200,
+            "address": "Unter den Linden 4, 10110 Berlin",
+            "image": "https://images.unsplash.com/photo-1554435493-93422e8220c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJ1aWxkaW5nfGVufDB8fDB8fHww"
+        },
+        {
+            "id": "62b1949a4e-9fgrd9b-4cd45h2-95ca-8cbaa63rg76fb5",
+            "Name": "Building 10",
+            "Coordinates": {
+            "X": 1350,
+            "Y": 850,
+            "Width": 400,
+            "Length": 100
+            },
+            "occupied": 200,
+            "empty": 200,
+            "address": "Unter den Linden 5, 10110 Berlin",
+            "image": "https://images.unsplash.com/photo-1542361345-89e58247f2d5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJ1aWxkaW5nfGVufDB8fDB8fHww"
+        },
+        {
+            "id": "62b5fef45h542a4e-9f9b-4rdgcd2-95drgca-8cbjfthaa6376fb6",
+            "Name": "Building 11",
+            "Coordinates": {
+            "X": 1350,
+            "Y": 1230,
+            "Width": 400,
+            "Length": 100
+            },
+            "occupied": 200,
+            "empty": 200,
+            "address": "Unter den Linden 6, 10110 Berlin",
+            "image": "https://plus.unsplash.com/premium_photo-1677620678562-5876edb7c126?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJ1aWxkaW5nfGVufDB8fDB8fHww"
+        },
+        {
+            "id": "62b5fef2a45h45h4e-9fwfsfse9b-4cd2-95ca-45h54h45hergdv",
+            "Name": "Building 12",
+            "Coordinates": {
+            "X": 1350,
+            "Y": 1400,
+            "Width": 400,
+            "Length": 100
+            },
+            "occupied": 200,
+            "empty": 200,
+            "address": "Unter den Linden 7, 10110 Berlin",
+            "image": "https://plus.unsplash.com/premium_photo-1677620678562-5876edb7c126?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJ1aWxkaW5nfGVufDB8fDB8fHww"
+        },
+        {
+            "id": "62b52a1fe-9fhthtf9b-4cd2-95ca-8cbaa6376fvrdrvb1",
+            "Name": "Building 13",
+            "Coordinates": {
+                "X": 1850,
+                "Y": 1230,
+                "Width": 400,
+                "Length": 100
+            },
+            "occupied": 156,
+            "empty": 200,
+            "address": "Potsdamer Platz 2, 10110 Berlin",
+            "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnVpbGRpbmd8ZW58MHx8MHx8fDA%3D"
+        },
+        {
+            "id": "62b5fef2a4e-drv9f9b-4cd2-95ca-8cbaa637dwadw6fvdrvb6",
+            "Name": "Building 14",
+            "Coordinates": {
+            "X": 1850,
+            "Y": 1400,
+            "Width": 400,
+            "Length": 100
+            },
+            "occupied": 196,
+            "empty": 200,
+            "address": "Unter den Linden 7, 10110 Berlin",
+            "image": "https://plus.unsplash.com/premium_photo-1677620678562-5876edb7c126?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJ1aWxkaW5nfGVufDB8fDB8fHww"
+        }
+    ],
+    "POIs": [
+        {
+            "id": "bce10jbc6-ctfb45a-448a-a900-1f637xawx3d73ed2",
+            "Name": "Berliner Mauer",
+            "Coordinates": {
+                "X": 50,
+                "Y": 450
+                },
+            "size": {
+                "width": 300,
+                "height": 200
+            },
+            "image": "https://www.berlin.de/binaries/asset/image_assets/3272489/source/1677840091/1000x500/",
+            "description": "Die Berliner Mauer war während der Teilung Deutschlands ein Grenzbefestigungssystem der Deutschen Demokratischen Republik (DDR), das vom 13. August 1961 bis zum 9. November 1989 bestand, um West-Berlin vom Gebiet der DDR hermetisch abzuriegeln. Sie trennte nicht nur die Verbindungen im Gebiet Groß-Berlins zwischen dem Ostteil („Hauptstadt der DDR“) und dem Westteil der Stadt, sondern umschloss alle drei Sektoren des Westteils vollständig und unterbrach damit auch seine Verbindungen zum sonstigen Umland, das im DDR-Bezirk Potsdam lag. Die Mauer verlief dabei zumeist einige Meter hinter der eigentlichen Grenze."
+        },
+        {
+            "id": "bce10dawdbc6-c43ddwqq1e5a-44dw1jt78a-a9thhbdf00-1f6373jd73ed1",
+            "Name": "Reichstag",
+            "Coordinates": {
+                "X": 400,
+                "Y": 450
+                },
+            "size": {
+                "width": 300,
+                "height": 200
+            },
+            "image": "https://www.berlin.de/binaries/asset/image_assets/1363412/source/1623667877/1000x500/",
+            "description": "Reichstag bezeichnet im Heiligen Römischen Reich und in den europäischen Staaten, die aus dem Römischen Reich hervorgegangen sind, sowie auch in einigen anderen Staaten eine ständische und später parlamentarische Versammlung, die als Gegengewicht zum Kaiser (und später als Gegengewicht zur Reichsleitung oder zur Staatsregierung) dienen sollte."
+        },
+        {
+            "id": "bce10bgdrc6-c4drg5a-44nftn878k8a-a90vrdu0-1f637drg3d73ed3",
+            "Name": "Brandenburger Tor",
+            "Coordinates": {
+                "X": 750,
+                "Y": 450
+                },
+            "size": {
+                "width": 300,
+                "height": 200
+            },
+            "image": "https://www.berlin.de/binaries/asset/image_assets/924673/source/1677838311/1000x500/",
+            "description": "Das Brandenburger Tor in Berlin ist ein frühklassizistisches Triumphtor, das an der Westflanke des quadratischen Pariser Platzes im Berliner Ortsteil Mitte steht. Es wurde als Abschluss der zentralen Prachtstraße der Dorotheenstadt, des Boulevards Unter den Linden, in den Jahren von 1789[1] bis 1793[2] auf Anweisung des preußischen Königs Friedrich Wilhelm II. nach Entwürfen von Carl Gotthard Langhans errichtet. Die das Tor krönende Skulptur der Quadriga ist ein Werk nach dem Entwurf des Bildhauers Johann Gottfried Schadow. Westlich des Brandenburger Tores befinden sich die ausgedehnten Grünflächen des Großen Tiergartens, die in gradliniger Verlängerung der Straße Unter den Linden von der Straße des 17. Juni durchquert werden. Die Platzfläche unmittelbar westlich des Tores trägt den Namen Platz des 18. März."
+        },
+        {
+            "id": "bce10bc6-c4545ha-448a-a900-1f6373d73grddrj8568jrthg4h4ed4",
+            "Name": "Museumsinsel",
+            "Coordinates": {
+                "X": 50,
+                "Y": 750
+                },
+            "size": {
+                "width": 300,
+                "height": 200
+            },
+            "image": "https://www.berlin.de/binaries/asset/image_assets/1265366/source/1548414902/1000x500/",
+            "description": "Die Museumsinsel ist ein aus fünf Museen bestehendes Bauensemble im nördlichen Teil der Spreeinsel in der historischen Mitte Berlins. Sie gehört zu den wichtigsten Sehenswürdigkeiten der deutschen Hauptstadt und zu den bedeutendsten Museumskomplexen Europas. In den Jahren von 1830 bis 1930 im Auftrag der preußischen Könige nach Plänen von fünf Architekten entstanden, wurde sie 1999 als Gesamtanlage in die Liste des UNESCO-Weltkulturerbes aufgenommen. Die Museumsinsel besteht aus dem Alten Museum, dem Neuen Museum, der Alten Nationalgalerie, dem Bode-Museum und dem Pergamonmuseum. Seit der Wiedervereinigung Deutschlands wird sie im Rahmen des Masterplans Museumsinsel saniert und erweitert. Am 12. Juli 2019 eröffnete die James-Simon-Galerie als neues Besucherzentrum.[1] Ebenfalls im nördlichen Teil der Spreeinsel steht der Berliner Dom am Lustgarten, sowie das museal und kulturell genutzte Humboldt Forum, das bis 2021 in den Formen des Berliner Schlosses errichtet wurde."
+        },
+        {
+            "id": "bce10bc6-c45h54ha-44h345h8a-a9086nf0-1f6373d73ed5",
+            "Name": "Fernsehturm",
+            "Coordinates": {
+                "X": 400,
+                "Y": 750
+                },
+            "size": {
+                "width": 300,
+                "height": 200
+            },
+            "image": "https://www.berlin.de/binaries/asset/image_assets/1147528/source/1548414904/1000x500/",
+            "description": "Der Berliner Fernsehturm ist mit 368 Metern das höchste Bauwerk Deutschlands sowie der fünfthöchste Fernsehturm Europas. Der Fernsehturm befindet sich im Park am Fernsehturm im Berliner Ortsteil Mitte. Er war im Jahr der Fertigstellung 1969 der zweithöchste Fernsehturm der Welt und zählt mit über einer Million Besuchern jährlich[2] zu den zehn beliebtesten Sehenswürdigkeiten in Deutschland.[3]"
+        },
+        {
+            "id": "bce10bc6-c45fökm0032862lkjha-448a-a900-1f6373d73ed6",
+            "Name": "Siegessäule",
+            "Coordinates": {
+                "X": 750,
+                "Y": 750
+                },
+            "size": {
+                "width": 300,
+                "height": 200
+            },
+            "image": "https://www.berlin.de/binaries/asset/image_assets/3756905/source/1447844149/1000x500/",
+            "description": "Als Siegessäule wird ein Denkmal in Säulenform bezeichnet, das als Erinnerung an einen gewonnenen Krieg oder eine gewonnene Schlacht errichtet wurde. Vergleichbar sind auch Ehrensäulen z. B. für erfolgreiche Feldherren oder Politiker. Sieges- und Ehrensäulen waren schon in der römischen Antike verbreitet, beispielsweise die Trajanssäule."
+        },
+        {
+            "id": "bce10bc6-c45a-448a-a97hgkjrdnv893400-1f6373dawd73ed6",
+            "Name": "Olympiastadion Berlin",
+            "Coordinates": {
+                "X": 50,
+                "Y": 1230
+                },
+            "size": {
+                "width": 400,
+                "height": 200
+            },
+            "image": "https://lh3.googleusercontent.com/p/AF1QipNvbjmvm21YWMMmvuTU4o3lFP_rPq9gFV04nB2L=s1360-w1360-h1020",
+            "description": "Das Olympiastadion Berlin befindet sich im Berliner Bezirk Charlottenburg-Wilmersdorf im Ortsteil Westend. Es ist Teil des Olympiageländes (ursprünglich: Reichssportfeld) und wurde von 1934 bis 1936 für die Spiele der XI. Olympiade (1.–16. August 1936) mit einem Fassungsvermögen von seinerzeit 100.000 Zuschauern an der Stelle des zuvor dort befindlichen Deutschen Stadions errichtet. Heute ist das Olympiastadion Heimspielstätte des Fußballvereins Hertha BSC, der der Hauptnutzer des Stadions ist. Es bietet aktuell 74.475 Sitzplätze, davon 38.020 auf dem Unterring und 36.455 auf dem Oberring.[1]"
+        },
+        {
+            "id": "bce5fc10bc6-c45a-44aa8a-aawdknsröljnrb83402if2h900-1f6373dawd73ed6",
+            "Name": "Zitadelle Spandau",
+            "Coordinates": {
+                "X": 550,
+                "Y": 1230
+                },
+            "size": {
+                "width": 400,
+                "height": 200
+            },
+            "image": "https://www.berlin.de/binaries/asset/image_assets/7657635/source/1659012634/1000x500/",
+            "description": "Die Zitadelle Spandau ist eine der bedeutenden und besterhaltenen Festungen der Hochrenaissance in Europa. Sie befindet sich nordöstlich der Spandauer Altstadt am gegenüberliegenden Havelufer im Berliner Ortsteil Haselhorst und ist eine bekannte Sehenswürdigkeit des Berliner Bezirks Spandau. Kern der Anlage ist eine mittelalterliche Burg, von der noch Bergfried und Palas erhalten sind. Um sie herum wurde in den Jahren 1559–1594 ein Festungsbauwerk nach dem damals aktuellen Stand der Technik angelegt."
+        }
+    ]
+}
+

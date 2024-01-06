@@ -1,14 +1,16 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { IBuilding } from "../../models/IBuilding";
+import {  BuildingArts, IBuilding } from "../../models/IBuilding";
 
 export type detailsStatus = {
     details: IBuilding | null,
-    detailsStatus: boolean
+    detailsStatus: boolean,
+    buildingArt?: BuildingArts | null 
 }
 
 const initialState: detailsStatus = {
     details: null,
-    detailsStatus: false
+    detailsStatus: false,
+    buildingArt: null
 }
 
 export const buildingSlice = createSlice({
@@ -21,9 +23,12 @@ export const buildingSlice = createSlice({
         setDetails: (state, action: PayloadAction<IBuilding | null>) => {
             console.log(action.payload);
             state.details = action.payload
+        },
+        setBuildingArt: (state, action: PayloadAction<BuildingArts>) => {
+            state.buildingArt = action?.payload 
         }
     }
 })
 
-export const { toggleDetailsStatus, setDetails } = buildingSlice.actions;
+export const { toggleDetailsStatus, setDetails, setBuildingArt } = buildingSlice.actions;
 export default buildingSlice.reducer;
