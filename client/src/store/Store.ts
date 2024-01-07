@@ -1,13 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
 import buildingSlice from "../features/building/BuildingSlice";
-import PoSlice from "../features/building/PoSlice";
+import PoSlice from "../features/building/PoiSlice";
 
 
 
 export const store = configureStore({
     reducer: {
         building: buildingSlice,
-        po: PoSlice
+        poi: PoSlice
     }
 })
 

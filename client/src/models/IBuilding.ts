@@ -14,7 +14,7 @@ export interface IBuilding {
   } 
 
 
-  export interface IPo {
+  export interface IPoi {
     id: string,
     Name: string,
     Coordinates: {

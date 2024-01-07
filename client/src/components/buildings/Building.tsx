@@ -7,7 +7,7 @@ import Members from "./buildingInfo/Members";
 
 
 const Building: FC<IBuilding> = (building) => {
-  // Redux
+  // Redux states
   const dispatch = useAppDispatch();
   const buildingDetails = useAppSelector(state => state.building.details)
 
@@ -26,10 +26,10 @@ const Building: FC<IBuilding> = (building) => {
 
 
   return (
-    // Gebauede
+    // Building
         <button 
           onClick={buildingDetailsHandler}
-          className={ building.empty === building.occupied ? " bg-zinc-600 absolute  border-8 border-green-400 text-center text-white text flex  flex-wrap items-center justify-center hover:scale-95 transition-all duration-300 cursor-pointer" : " bg-zinc-600 absolute  border-8 border-red-400 text-center text-white text flex flex-wrap items-center justify-center hover:scale-95 transition-all duration-300 cursor-pointer"   } 
+          className={ building.empty === building.occupied ? " bg-zinc-600 absolute  border-8 border-green-400 text-center text-white text flex  flex-wrap items-center justify-center hover:scale-95 hover:bg-sky-500 transition-all duration-300 cursor-pointer" : " bg-zinc-600 absolute  border-8 border-red-400 text-center text-white text flex flex-wrap items-center justify-center hover:scale-95 hover:bg-sky-500 transition-all duration-300 cursor-pointer"   } 
           style={{ 
             width: building.Coordinates.Width, 
             height: building.Coordinates.Length,

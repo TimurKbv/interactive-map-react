@@ -21,7 +21,6 @@ export const buildingSlice = createSlice({
             state.detailsStatus = action.payload
         },
         setDetails: (state, action: PayloadAction<IBuilding | null>) => {
-            console.log(action.payload);
             state.details = action.payload
         },
         setBuildingArt: (state, action: PayloadAction<BuildingArts>) => {

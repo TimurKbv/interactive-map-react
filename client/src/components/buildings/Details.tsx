@@ -3,7 +3,7 @@ import { toggleDetailsStatus } from "../../features/building/BuildingSlice";
 import { SlClose } from "react-icons/sl";
 import BuildingInfo from "./buildingInfo/BuildingInfo";
 import { BuildingArts } from "../../models/IBuilding";
-import PoInfo from "./buildingInfo/PoInfo";
+import PoiInfo from "./buildingInfo/PoIInfo";
 
 
 const Details = () => {
@@ -12,19 +12,19 @@ const Details = () => {
   const buildingStatus = useAppSelector((state) => state.building.detailsStatus);
   const art = useAppSelector(state => state.building.buildingArt)
   const dispatch = useAppDispatch();
-  // PO state
-  const poDetails = useAppSelector(state => state.po.details)
+  // POI state
+  const poiDetails = useAppSelector(state => state.poi.details)
   
   return (
     <section
       className={
         buildingStatus
-          ? "fixed top-[16.6vh] bottom-[8.3vh] right-0 bg-slate-400 w-3/12  "
+          ? "fixed top-[16.6vh] bottom-[8.3vh] right-0 bg-slate-400 w-3/12 overflow-auto border-l-2 border-white"
           : "hidden"
       }
     >
-      {/* Da POs und Buildings verschiedene infos haben, wird es nach Gebauedetyp geprüft und entscheden welche Infos man zeigt */}
-      { art === BuildingArts.building ? <BuildingInfo {...buildingDetails} /> : <PoInfo {...poDetails} /> }
+      {/* Da POIs und Buildings verschiedene infos haben, wird es nach Gebauedetyp geprüft und entscheden welche Infos man zeigt */}
+      { art === BuildingArts.building ? <BuildingInfo {...buildingDetails} /> : <PoiInfo {...poiDetails} /> }
 
       {/* Close Button */}
       <div
