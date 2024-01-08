@@ -33,6 +33,7 @@ server.listen(process.env.API_PORT, () => {
     console.log(`Server running on http://localhost:${process.env.API_PORT}`); 
 });
 
+// wenn es schwierigkeiten bei zugang zur MongoDB kommen, dann leig der data.json im data ordner ./data
 const MONGO_URL = 'mongodb+srv://timurkokumbaev:Nrxn1RBySRGEzjCA@interactive-map.weqonas.mongodb.net/map?retryWrites=true&w=majority';
 
 mongoose.Promise = Promise;

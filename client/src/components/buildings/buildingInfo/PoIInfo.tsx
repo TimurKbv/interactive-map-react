@@ -7,7 +7,7 @@ const PoiInfo: FC<IPoi> = ({image, Name, description}) => {
     <div className=" my-16 flex flex-col gap-3">
       {/* POI image */}
         <div className="w-full h-32 md:h-40 lg:h-54 xl:h-64 2xl:h-80 ">
-            <img src={image} alt="PO picture" className=" w-full h-full object-cover " />
+            <img src={image} alt="PO picture" className=" w-full h-full object-contain " />
         </div>
         {/* POI description */}
         <div className="mx-5">

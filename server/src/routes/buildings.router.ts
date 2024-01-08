@@ -36,12 +36,12 @@ const poiSchema = new mongoose.Schema({
 
 // ------------------------------------------------------
 
-// Erstelle ein neues Model Objekt fuer Buildings
+
 export const BuildingsModel = mongoose.model("Building", buildingSchema);
 export const PoisModel = mongoose.model("Poi", poiSchema);
 
 buildingsRouter.route("/").get( async (req, res) => {
-  // finde todolist
+  
     try {
         let buildings = await BuildingsModel.find();
 
